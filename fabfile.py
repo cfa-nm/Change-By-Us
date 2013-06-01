@@ -53,7 +53,7 @@ COOKBOOK:
         fab --config=rcfile.dev dev setup_application
 
     Create new configuration file:
-        fab --config=rcfile.name dev create_config_yaml
+        fab --config=rcfile.name dev create_config_files
 
     Create stage-specific lighttpd.conf file into the etc/ folder
         fab --config=rcfile.name dev create_lighttpd_conf
