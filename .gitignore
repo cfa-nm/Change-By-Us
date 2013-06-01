@@ -46,6 +46,7 @@ lighttpd.conf*
 config.yaml*
 !config.yaml.tmpl
 !config.yaml.sample
+rcfile
 rcfile.*
 !rcfile.sample
 supervisor.conf
